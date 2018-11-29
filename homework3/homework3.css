@@ -1,0 +1,32 @@
+.name{
+	width:70;
+	font-size:15;
+	margin:5;
+	padding: 5;
+}
+.email{
+	width:200;
+	font-size:15;
+	margin:5;
+	padding:5;
+}
+.phone{
+	width:100;
+	font-size:15;
+	margin:5;
+	padding:5;
+}
+.textbox{
+	width:200;
+	height:40;
+	font-size:15;
+	margin: 5;
+	padding: 5;
+}
+.button{
+	width:80;
+	height:40;
+	font-size: 15;
+	margin: 5;
+	padding: 5;
+}

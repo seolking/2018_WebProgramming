@@ -1,0 +1,28 @@
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" href="homework3.css">
+
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<td>
+					<input class = "button" type = "button" value = "돌아가기"
+					onclick = "javascript:location.href='homework3.html';">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form name = "input" action = "homework3.php" method = "get">
+					<input type = "hidden" name = "work" value = "delete">
+					<p>삭제할 row의 이름을 입력해주세요 : <input class = "textbox" type = "text" name = "input"> </p>
+					<input class = "button" type = "submit" value = "삭제" >
+					</form>
+				</td>
+			</tr>
+		</table>
+		<script src = "homework3.js"> </script>
+	</body>
+</html>
